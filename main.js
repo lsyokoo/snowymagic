@@ -34,11 +34,11 @@ import * as THREE from 'three';
 
 				};
 
-				const sprite1 = textureLoader.load( 'textures/sprites/snowflake1.png', assignSRGB );
-				const sprite2 = textureLoader.load( 'textures/sprites/snowflake2.png', assignSRGB );
-				const sprite3 = textureLoader.load( 'textures/sprites/snowflake3.png', assignSRGB );
-				const sprite4 = textureLoader.load( 'textures/sprites/snowflake4.png', assignSRGB );
-				const sprite5 = textureLoader.load( 'textures/sprites/snowflake5.png', assignSRGB );
+				const sprite1 = textureLoader.load( './textures/sprites/snowflake1.png', assignSRGB );
+				const sprite2 = textureLoader.load( './textures/sprites/snowflake2.png', assignSRGB );
+				const sprite3 = textureLoader.load( './textures/sprites/snowflake3.png', assignSRGB );
+				const sprite4 = textureLoader.load( './textures/sprites/snowflake4.png', assignSRGB );
+				const sprite5 = textureLoader.load( './textures/sprites/snowflake5.png', assignSRGB );
 
 				for ( let i = 0; i < 10000; i ++ ) {
 
